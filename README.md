@@ -6,6 +6,9 @@ This project is brought to you by the following super dedicated team members: No
 
 # **DO NOT RUN THIS PLUGIN ALONG WITH ANOTHER WEAPON PLUGIN, NO SUPPORT IS GUARANTEED BETWEEN THEM**
 
+> 此处写下调整思路：
+待填
+
 ## Download Links
 
 Total Size Compressed: 102 MB
