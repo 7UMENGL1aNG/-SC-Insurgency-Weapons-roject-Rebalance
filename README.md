@@ -6,18 +6,31 @@ This project is brought to you by the following super dedicated team members: No
 
 # **DO NOT RUN THIS PLUGIN ALONG WITH ANOTHER WEAPON PLUGIN, NO SUPPORT IS GUARANTEED BETWEEN THEM**
 
+## 该版本相关信息
+#### 注意：这并不是一个面向大众的修改，所有调整都将按照调整思路进行更改以确保平衡，所以如果你有修改数值的想法，请勿创建议题(issue)；反之，如果你发现我的调整有未及之处 *(如动画的修改和实际演出不符：A：表现为动画还未结束就进行下个动画；B：动画已经结束但仍然无法进行下一步操作，而且等待时间较长)* ，十分欢迎找出错误并上报，尽量**详细描述**问题所在能帮助我快速修复。
+
+#### 上报问题方式：
+*以下方式都可以，不过我对这些方法的推荐度依次降低。*
+1. 既然你在github看到了，那就在这里使用Issue功能上报。
+2. 想办法通过各种联系方式联系到该库主人，也就是涂梦良。
+3. 在Null群内随口描述问题，可能我就看到了。
+4. 在Null服里和其他玩家抱怨，也许会有人帮你上报。
+5. 在互联网各地找个角落乱喊，说不定我就听到了~*同时真诚希望如此做的你在被禁言或者封禁之前能解决问题XD(**尽量**别这么做，好吗?)*
+
+
 > 此处写下调整思路：
 > 所有小数尽量取整
 <br />
 
-* **近战武器类（包括部分枪械的刺刀）：**
+**近战武器类（包括部分枪械的刺刀）：**
 * models/ins2fair
 * 近战伤害提升(10 × 1.2)即 12 （使接近450)；添加gib伤害类型
 * 第一次拾取 以及 后续切换的部署时间加快 1.6 (Deploy)
+
   
 <br />
 
-* **枪械类：**
+**枪械类：**
 * models/ins2fair
 * 总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
 * 射速提升 1.2  (RPM_AIR RPM_WTR) / 1.2f
@@ -30,7 +43,7 @@ This project is brought to you by the following super dedicated team members: No
 
 <br />
 
-* **火箭类：**
+**火箭类：**
 * models/ins2fair
 * 总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
 * 第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
@@ -39,7 +52,7 @@ This project is brought to you by the following super dedicated team members: No
 
 <br />
 
-* **手雷类：**
+**手雷类：**
 * models/ins2fair
 * 总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
 * 第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
@@ -47,7 +60,7 @@ This project is brought to you by the following super dedicated team members: No
 
 <br />
 
-* **单独调整类：**
+**单独调整类：**
 * models/ins2fair
 * M79榴弹发射器：
 * 总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL)
@@ -57,7 +70,7 @@ This project is brought to you by the following super dedicated team members: No
 
 <br />
 
-* **栓狙击类：**
+**栓狙击类：**
 * 总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
 * 射速提升 1.2  (RPM_AIR RPM_WTR) / 1.2f
 * 第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
@@ -69,13 +82,15 @@ This project is brought to you by the following super dedicated team members: No
 
 <br />
 
-* **左轮类：**
+**左轮类：**
 * 总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
 * 射速提升 1.2  (RPM_AIR RPM_WTR) / 1.2f
 * 第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
 * 击锤速度提升 1.2 (HammerBackThink)
 * 全部武器换弹速度 1.4 (RELOAD_EMPTY)
 
+<br />
+<br />
 <br />
 
 ## Download Links
