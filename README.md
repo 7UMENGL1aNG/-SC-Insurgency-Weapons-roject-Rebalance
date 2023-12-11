@@ -7,7 +7,64 @@ This project is brought to you by the following super dedicated team members: No
 # **DO NOT RUN THIS PLUGIN ALONG WITH ANOTHER WEAPON PLUGIN, NO SUPPORT IS GUARANTEED BETWEEN THEM**
 
 > 此处写下调整思路：
-待填
+> 所有小数尽量取整
+
+近战武器类（包括部分枪械的刺刀）：
+models/ins2fair
+近战伤害提升(10 × 1.2)即 12 （使接近450)；添加gib伤害类型
+第一次拾取 以及 后续切换的部署时间加快 1.6 (Deploy)
+
+枪械类：
+models/ins2fair
+总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
+射速提升 1.2  (RPM_AIR RPM_WTR) / 1.2f
+第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
+*下挂武器同主要武器之间切换速度提升 1.6  (GrenadeLauncherSwitch)
+*脚架切换速度一律调成50fps (BIPOD_IRON_IN)
+*下挂武器换弹速度 1.8 (GL_RELOAD)
+全部武器换弹速度 1.4 (RELOAD_EMPTY)
+开火模式切换速度提升 2 (SELECTFIRE)
+
+火箭类：
+models/ins2fair
+总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
+第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
+增加火箭类武器的一次攻击至下一次的攻击间隔至 2 秒 (self.m_flNextPrimaryAttack)
+火箭换弹速度 1.8 (RELOAD)
+
+手雷类：
+models/ins2fair
+总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
+第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
+手雷武器投掷速度提升 2 (注意多个Attack方式) 投掷间隔减少 2 (LaunchThink)
+
+单独调整类：
+models/ins2fair
+M79榴弹发射器：
+总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL)
+开火模式切换速度提升 2 (m_bIsSwitching)
+第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
+M79榴弹发射器 霰弹枪模式换弹加快 2.4（BUCK_SHOT) 高爆模式换弹加快 2 (High_Explosive)
+
+栓狙击类：
+总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
+射速提升 1.2  (RPM_AIR RPM_WTR) / 1.2f
+第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
+*下挂武器同主要武器之间切换速度提升 1.6  (GrenadeLauncherSwitch)
+*脚架切换速度一律调成50fps (BIPOD_IRON_IN)
+*下挂武器换弹速度 1.8 (GL_RELOAD)
+拉栓动画加快 1.2 (BoltBackThink)
+全部武器换弹速度 1.4 (RELOAD_EMPTY)
+开火模式切换速度提升 2 (SELECTFIRE)
+
+左轮类：
+总体伤害包括榴弹伤害提升 1.2 (DAMAGE DAMAGE_GL) 1.2 * 
+射速提升 1.2  (RPM_AIR RPM_WTR) / 1.2f
+第一次拾取 以及 后续切换的部署时间加快 1.6 (DRAW_FIRST)
+击锤速度提升 1.2 (HammerBackThink)
+全部武器换弹速度 1.4 (RELOAD_EMPTY)
+
+
 
 ## Download Links
 
