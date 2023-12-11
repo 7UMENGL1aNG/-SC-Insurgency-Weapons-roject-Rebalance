@@ -10,7 +10,7 @@ This project is brought to you by the following super dedicated team members: No
 > 所有小数尽量取整
 <br />
 
-* 近战武器类（包括部分枪械的刺刀）：
+* **近战武器类（包括部分枪械的刺刀）：**
 * models/ins2fair
 * 近战伤害提升(10 × 1.2)即 12 （使接近450)；添加gib伤害类型
 * 第一次拾取 以及 后续切换的部署时间加快 1.6 (Deploy)
