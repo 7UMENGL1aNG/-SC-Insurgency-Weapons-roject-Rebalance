@@ -14,3 +14,5 @@ There's a very long list of people/teams in the file: *ins2_credits.txt*, this f
 * Use any assets included in this project without crediting who made them;
 * Earn money from this pack or any other assets used;
 * Upload it somewhere else without credits.
+
+## 为了确保授权，该处不包含所有其他依赖文件，你需要自己去出处下载，然后用我的进行内容替换，这是我能想到的最佳防侵权行为。(本该设置该库非公开，但fork的不行)
