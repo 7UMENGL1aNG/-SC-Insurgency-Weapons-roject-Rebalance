@@ -5,8 +5,6 @@
 This project is brought to you by the following super dedicated team members: Norman The Loli Pirate, D.N.I.O. 071, R4to0, D.G.F. and me (KernCore). This project started in mid November of 2017 and the first part of it was released on the Sven Co-op Forums (2020/01/19).
 
 # **DO NOT RUN THIS PLUGIN ALONG WITH ANOTHER WEAPON PLUGIN, NO SUPPORT IS GUARANTEED BETWEEN THEM**
-# 该版本尚未测试 请勿使用
-
 
 ## 该版本相关信息
 #### 注意：这并不是一个面向大众的修改，所有调整都将按照调整思路进行更改以确保平衡，所以如果你有修改数值的想法，请勿创建议题(issue)；反之，如果你发现我的调整有未及之处 *(如动画的修改和实际演出不符：A：表现为动画还未结束就进行下个动画；B：动画已经结束但仍然无法进行下一步操作，而且等待时间较长)* ，十分欢迎找出错误并上报，尽量**详细描述**问题所在能帮助我快速修复。
